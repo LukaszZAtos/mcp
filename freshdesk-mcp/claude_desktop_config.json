@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "freshdesk": {
+      "command": "/path/to/your/freshdesk-mcp/.venv/bin/python",
+      "args": ["/path/to/your/freshdesk-mcp/server.py"],
+      "env": {
+        "FRESHDESK_DOMAIN": "shortlistassist.freshdesk.com",
+        "FRESHDESK_API_KEY": "your_api_key_here"
+      }
+    }
+  }
+}
